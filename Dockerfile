@@ -8,4 +8,4 @@ ADD run.js /bootprint
 ADD package.json /bootprint
 RUN npm i
 
-ENTRYPOINT ["node", "/bootprint/run.js"]
+ENTRYPOINT ["node", "/bootprint/run.js", "-m", "docker"]
