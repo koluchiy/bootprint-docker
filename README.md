@@ -4,7 +4,7 @@ Build on top of [node.js](https://nodejs.org/en/), [bootprint](https://github.co
 
 # Examples
 
-##Local run
+## Local run
 `git clone git@github.com:koluchiy/bootprint-docker.git`
 `npm i`
 `node run.js -s https://example.com/swagger.json`
@@ -13,7 +13,7 @@ This command creates not minified docs inside `tmp` folder and minified `out.htm
 You can path filesystem or web link for your swagger.json through option `-s`.
 You can specify folder for unminified result through option `-tmp`.
 
-##Docker
+## Docker
 
 `mkdir result`
 `docker run -v ${PWD}/result:/tmp/bootprint -u $(id -u):$(id -g) koluchiy/docker-bootprint -s https://example.com/swagger.json`
