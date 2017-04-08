@@ -11,6 +11,7 @@
   "dependencies": {
     "bootprint": "^1.0.0",
     "bootprint-openapi": "^1.0.1",
-    "html-inline": "^1.2.0"
+    "html-inline": "^1.2.0",
+    "html-minifier": "^3.4.2"
   }
 }
