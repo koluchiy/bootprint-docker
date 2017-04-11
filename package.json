@@ -9,10 +9,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bootprint": "^1.0.0",
-    "bootprint-openapi": "^1.0.1",
+    "bootprint-openapi": "git+ssh://git@github.com/koluchiy/bootprint-openapi.git#verstka",
     "html-inline": "^1.2.0",
-    "html-minifier": "^3.4.2",
+    "html-minifier": "^3.4.3",
     "path": "^0.12.7"
   }
 }
